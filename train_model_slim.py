@@ -1,4 +1,14 @@
 
+
+"""
+This is a tensorflow implementation of the paper **"Efficient Deep Learning for Stereo Matching" by by Luo, W. and Schwing, A. and Urtasun, R**.
+For more details, please refer the original torch implementation of the authors at
+[https://bitbucket.org/saakuraa/cvpr16_stereo_public](https://bitbucket.org/saakuraa/cvpr16_stereo_public)
+
+The following code trains/evalautes a model on selected dataset
+
+"""
+
 import tensorflow as tf
 import numpy as np
 import tensorflow.contrib.slim as slim
